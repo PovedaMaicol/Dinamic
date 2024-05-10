@@ -1,0 +1,168 @@
+@charset="utf-8";
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(../imagenes/textuu.jpg);
+}
+
+	.contenedor {
+    width: 1024px;
+    margin-right: auto;
+    margin-left: auto;
+}
+header  {
+    width: 1024px;
+    height: 200px;
+    background-color: rgba(4,0,34,1.00);
+
+}
+.identificador {
+    width: 161px;
+    height: 141px;
+    margin-top: 25px;
+    margin-left: 50px;
+    float: left;
+}
+nav {
+    width: 1024px;
+    height: 45px;
+}
+nav .boton a {
+    width: 256px;
+    height: 40px;
+    background-color: rgba(0,47,55,1.00);
+    float: left;
+    text-align: center;
+    color: rgba(248,248,248,1.00);
+    font-family: 'Georama', sans-serif;
+    font-size: x-large;
+    padding-top: 10px;
+    text-decoration: none;
+}
+nav .boton a:hover {
+    color: rgba(219,235,105,1.00);
+}
+
+.caja_texto {
+    width: 500px;
+    margin-right: 74px;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	float: left;
+}
+
+.caja_texto p {
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    text-align: left;
+    font-size: large;
+}
+h1   {
+    font-size: xx-large;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-style: normal;
+}
+
+main  {
+    width: 1024px;
+    float: left;
+    background-color: rgba(255,255,255,1.00);
+
+}
+}
+.caja_texto p a {
+    text-decoration: none;
+    color: rgba(11,64,187,1.00);
+}
+
+.foto {
+    width: 350px;
+    height: px;
+    float: left;
+}
+section {
+    width: 924px;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    float: left;
+    padding-right: 0px;
+}
+.contenedor footer {
+}
+footer {
+    width: 1024px;
+    height: 80px;
+    float: left;
+    background-image: url(../imagenes/PNG/piedeft.png);
+}
+.redes {
+    margin-left: 50px;
+}
+
+.redes li {
+    width: 45px;
+    height: 45px;
+    float: left;
+    list-style-type: none;
+    margin-top: 25px;
+    margin-right: 10px;
+}
+.galeria .fotos  {
+    width: 150px;
+    height: 150px;
+    float: left;
+    border-style: ridge;
+    border-color: rgba(17,28,58,1.00);
+    margin-top: 35px;
+    margin-right: 35px;
+    margin-bottom: 35px;
+    margin-left: 35px;
+}
+.galeria .fotos:hover {
+    border-color: rgba(0,255,227,1.00);
+    border-style: ridge;
+}
+.titulares {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: xx-large;
+    background-color: rgba(255,255,255,1.00);
+    color: rgba(0,47,55,1.00);
+}
+hr {
+    height: 4px;
+    background-color: rgba(189,170,46,1.00);
+}
+.youtube {
+    margin-left: 35px;
+    margin-bottom: 50px;
+}
+.caja_texto2 p {
+    width: 450px;
+    float: left;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+.mapa   {
+    width: 924px;
+    float: left;
+}
+.formulario {
+    width: 400px;
+    float: left;
+    margin-top: 50px;
+    color: rgba(5,6,51,1.00);
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    padding-left: 262px;
+    padding-right: 262px;
+}
+input   {
+    height: 30px;
+    border-radius: 6px;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    padding-left: 5px;
+}
+tr td #textarea {
+    border-radius: 6px;
+}
